@@ -1,0 +1,15 @@
+		Date date = new Date();
+        SimpleDateFormat formatter = new SimpleDateFormat("HH/mm/ss");
+        String strDate= formatter.format(date);
+        System.out.println(strDate);
+
+
+
+
+
+
+		Date date = new Date();
+        Calendar c = Calendar.getInstance();
+        c.setTime(date);
+        c.add(c.HOUR, -2);
+        System.out.println(c.getTime());
